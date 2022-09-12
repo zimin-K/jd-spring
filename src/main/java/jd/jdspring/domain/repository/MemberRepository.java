@@ -1,4 +1,4 @@
-package jd.jdspring.repository;
+package jd.jdspring.domain.repository;
 
 import jd.jdspring.domain.Member;
 import java.util.List;

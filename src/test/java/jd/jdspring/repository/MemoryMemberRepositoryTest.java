@@ -1,10 +1,11 @@
 package jd.jdspring.repository;
 
 import jd.jdspring.domain.Member;
+import jd.jdspring.domain.repository.MemoryMemberRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import java.util.List;
-import java.util.Optional;
+
 import static org.assertj.core.api.Assertions.*;
 class MemoryMemberRepositoryTest {
     MemoryMemberRepository repository = new MemoryMemberRepository();

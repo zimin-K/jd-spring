@@ -1,10 +1,7 @@
 package jd.jdspring.service;
 
 import jd.jdspring.domain.Member;
-import jd.jdspring.repository.MemberRepository;
-import jd.jdspring.repository.MemoryMemberRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import jd.jdspring.domain.repository.MemberRepository;
 
 import java.util.List;
 import java.util.Optional;

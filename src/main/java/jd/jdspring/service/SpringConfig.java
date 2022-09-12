@@ -1,8 +1,7 @@
 package jd.jdspring.service;
 
-import jd.jdspring.repository.MemberRepository;
-import jd.jdspring.repository.MemoryMemberRepository;
-import jd.jdspring.service.MemberService;
+import jd.jdspring.domain.repository.MemberRepository;
+import jd.jdspring.domain.repository.MemoryMemberRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

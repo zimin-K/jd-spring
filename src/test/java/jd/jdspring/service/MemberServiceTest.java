@@ -1,7 +1,7 @@
 package jd.jdspring.service;
 
 import jd.jdspring.domain.Member;
-import jd.jdspring.repository.MemoryMemberRepository;
+import jd.jdspring.domain.repository.MemoryMemberRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
